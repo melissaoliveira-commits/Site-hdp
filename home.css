@@ -4,6 +4,22 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+.home-principal {
+        height: 100vh; 
+    display: flex;
+    align-items: center; 
+    background-color: #546677;
+
+}
+/*rodape*/
+.rodape-branco {
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 5px;
+}
 /*barra fixa*/
 .barra-topo {
     background-color: #6a89a7;
@@ -51,13 +67,28 @@ font-size: 1.7rem;
 /*inicio*/
 #inicio {
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 500px;
 }
 .sub-titulo {
     text-align: center;
     text-decoration: bold;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #cfcdc7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .caixa-inicio {
-    background-color: #546677;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #5f7994;
+    margin-bottom: 40px;
+    width: 800px;
+}
+.paragrafo{
+    color: #cfcdc7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
